@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orienta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@800&display=swap"
+    />
+  </head>
+  <body>
+    <div
+      class="w-full relative bg-gainsboro-300 overflow-hidden flex flex-col items-start justify-start gap-[90px] tracking-[normal] mq450:gap-[22px_90px] mq750:gap-[45px_90px]"
+    >
+      <header
+        class="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[51px] box-border max-w-full text-left text-13xl text-yellowgreen font-orienta"
+      >
+        <div
+          class="flex-1 bg-darkslategray-400 flex flex-row items-start justify-between py-[17px] pr-0 pl-[53px] box-border max-w-full gap-[20px] mq750:pl-[26px] mq750:box-border"
+        >
+          <div
+            class="h-20 w-[1440px] relative bg-darkslategray-400 hidden max-w-full"
+          ></div>
+          <div
+            class="w-[225px] flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border"
+          >
+            <h2
+              class="m-0 self-stretch h-[37px] relative text-inherit font-normal font-inherit inline-block whitespace-nowrap z-[1]"
+            >
+              Susham Food Product
+            </h2>
+          </div>
+          <div
+            class="w-[946px] flex flex-row items-start justify-start max-w-full text-center text-xl text-darkseagreen font-body-medium"
+          >
+            <div
+              class="flex-1 flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border max-w-full"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-between gap-[20px] z-[1] lg:hidden"
+              >
+                <div
+                  class="flex flex-col items-start justify-start pt-[3.5px] px-0 pb-0"
+                >
+                  <div
+                    class="relative font-semibold inline-block min-w-[56px] cursor-pointer"
+                    id="homeText"
+                  >
+                    Home
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col items-start justify-start pt-[3.5px] px-0 pb-0"
+                >
+                  <div
+                    class="relative leading-[24px] font-semibold inline-block min-w-[119px] whitespace-nowrap"
+                  >
+                    Our Products
+                  </div>
+                </div>
+                <div
+                  class="w-[87px] flex flex-col items-start justify-start pt-[3.5px] px-0 pb-0 box-border"
+                >
+                  <div
+                    class="self-stretch relative leading-[24px] font-semibold inline-block min-w-[87px] whitespace-nowrap"
+                  >
+                    About Us
+                  </div>
+                </div>
+                <div
+                  class="h-[30px] w-[114px] relative font-semibold flex items-center justify-center shrink-0"
+                >
+                  Contact
+                </div>
+                <div
+                  class="h-[27px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border"
+                >
+                  <img
+                    class="w-6 h-6 relative overflow-hidden shrink-0"
+                    loading="lazy"
+                    alt=""
+                    src="/public/search.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="h-[42px] flex flex-row items-end justify-start pt-0 pb-0.5 pr-[13.5px] pl-[21.5px] box-border gap-[29px] z-[1]"
+            >
+              <div
+                class="h-8 flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border"
+              >
+                <img
+                  class="w-[26px] h-[26px] relative overflow-hidden shrink-0"
+                  loading="lazy"
+                  alt=""
+                  src="/public/cart.svg"
+                />
+              </div>
+              <img
+                class="h-10 w-10 relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/public/avatar@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <section
+        class="self-stretch flex flex-row items-start justify-start py-0 pr-[53px] pl-[52px] box-border max-w-full text-left text-17xl text-darkslategray-200 font-lato mq750:pl-[26px] mq750:pr-[26px] mq750:box-border"
+      >
+        <div
+          class="flex-1 flex flex-col items-start justify-start gap-[90px] max-w-full mq450:gap-[22px_90px] mq750:gap-[45px_90px]"
+        >
+          <div
+            class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-px box-border max-w-full"
+          >
+            <div
+              class="flex-1 box-border flex flex-col items-end justify-start pt-[37px] pb-5 pr-5 pl-[17px] max-w-full border-[1px] border-solid border-light-gray-11 mq750:pt-6 mq750:box-border"
+            >
+              <div
+                class="w-[1086px] flex flex-row items-start justify-between max-w-full gap-[20px] lg:flex-wrap"
+              >
+                <div
+                  class="relative leading-[140%] capitalize inline-block [text-shadow:1.1px_0_0_#285a43,_0_1.1px_0_#285a43,_-1.1px_0_0_#285a43,_0_-1.1px_0_#285a43] max-w-full mq450:text-base mq450:leading-[40px]"
+                >
+                  <span
+                    >"Susham Titaura: A Symphony of Sweetness and Spice"</span
+                  >
+                  <span class="text-xl font-extrabold"> </span>
+                </div>
+                <div
+                  class="flex flex-col items-start justify-start pt-[39px] px-0 pb-0 text-base text-gray1-200 font-body-medium"
+                >
+                  <div
+                    class="relative leading-[150%] font-medium inline-block min-w-[124px]"
+                  >
+                    January 20, 2023
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[18px] max-w-full mt-[-7px] text-lg text-gray1-200 font-body-medium lg:flex-wrap"
+              >
+                <div
+                  class="flex-1 flex flex-row items-start justify-start max-w-full mq750:min-w-full"
+                >
+                  <div
+                    class="flex-1 relative leading-[150%] font-medium inline-block max-w-full"
+                  >
+                    <p class="m-0">
+                      Welcome to the enchanting realm of Susham Titaura, where
+                      each candy is a harmonious blend of sweetness and spice,
+                      inviting you on a sensory journey like no other. As a
+                      distinguished titaura (candy) factory, Susham prides
+                      itself on crafting treats that transcend the ordinary,
+                      offering a perfect fusion of tradition and innovation.
+                    </p>
+                    <p class="m-0"></p>
+                    <p class="m-0">
+                      In the heart of Susham's creative process lies the
+                      meticulous selection of premium ingredients, sourced both
+                      locally and globally. This careful curation ensures a
+                      delicate balance between sweetness and spice, capturing
+                      the rich tapestry of Nepali culinary heritage. Handcrafted
+                      with precision by skilled artisans, each titaura becomes a
+                      masterpiece, infusing the essence of tradition with a
+                      contemporary twist.
+                    </p>
+                    <p class="m-0"></p>
+                    <p class="m-0">
+                      What sets Susham Titaura apart is its commitment to
+                      redefining flavor profiles. Picture the indulgence of
+                      jaggery heightened by the warmth of cinnamon or the
+                      traditional tanginess of tamarind complemented by a subtle
+                      kick of chili. Susham invites you to savor these
+                      delightful symphonies, where sweetness and spice dance in
+                      unison, creating a melody that resonates with every
+                      delectable bite. Immerse yourself in the unique world of
+                      Susham Titaura, where every candy tells a story of
+                      innovation, tradition, and the perfect mixture of
+                      sweetness and spice.
+                    </p>
+                  </div>
+                  <div
+                    class="h-6 w-6 relative overflow-hidden shrink-0 hidden"
+                  ></div>
+                </div>
+                <div
+                  class="h-[350px] w-[502px] flex flex-col items-start justify-start pt-[15px] px-0 pb-0 box-border min-w-[502px] max-w-full lg:flex-1 mq750:min-w-full"
+                >
+                  <img
+                    class="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover lg:self-stretch lg:w-auto"
+                    loading="lazy"
+                    alt=""
+                    src="/public/image-61@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch box-border flex flex-col items-start justify-start pt-[61px] pb-[62px] pr-0 pl-[18px] max-w-full border-[1px] border-solid border-light-gray-11 mq750:pt-10 mq750:pb-10 mq750:box-border"
+          >
+            <div class="w-6 h-6 relative overflow-hidden shrink-0 hidden"></div>
+            <div
+              class="w-[1296px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full"
+            >
+              <div
+                class="w-[634px] relative leading-[140%] capitalize inline-block shrink-0 [text-shadow:1.1px_0_0_#285a43,_0_1.1px_0_#285a43,_-1.1px_0_0_#285a43,_0_-1.1px_0_#285a43] max-w-full mq450:text-3xl mq450:leading-[30px] mq1050:text-10xl mq1050:leading-[40px]"
+              >
+                "Titaura Tasting: A Pairing Adventure"
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-row items-start justify-center gap-[37px] max-w-full text-base text-gray1-200 font-body-medium lg:flex-wrap mq750:gap-[37px_18px]"
+            >
+              <div
+                class="h-[367px] w-[502px] flex flex-col items-start justify-start gap-[8px] min-w-[502px] max-w-full lg:flex-1 mq750:min-w-full"
+              >
+                <div
+                  class="relative leading-[150%] font-medium inline-block min-w-[124px]"
+                >
+                  January 20, 2023
+                </div>
+                <img
+                  class="self-stretch h-[335px] relative rounded-3xs max-w-full overflow-hidden shrink-0 object-cover"
+                  loading="lazy"
+                  alt=""
+                  src="/public/image-71@2x.png"
+                />
+              </div>
+              <div
+                class="flex-1 flex flex-col items-start justify-start pt-3 px-0 pb-0 box-border min-w-[504px] max-w-full text-lg mq750:min-w-full"
+              >
+                <div class="self-stretch relative leading-[150%] font-medium">
+                  <p class="m-0">
+                    Along with Susham Titaura, go on a delicious journey of
+                    flavor and exploration as we uncover the hidden secrets of
+                    the ideal matching experience.Susham Titaura turns every
+                    indulgence into a customized, palate-pleasing adventure by
+                    encouraging you to try new things and find your own
+                    preferred pairings. We explore the concept of balance in
+                    this tasting adventure, seeing how Susham Titaura's distinct
+                    flavors pair well with different types of alcohol.
+                  </p>
+                  <p class="m-0">&nbsp;</p>
+                  <p class="m-0">
+                    Susham Titaura's wide array of tastes offers countless
+                    options, regardless of your preference: are you a bartender
+                    looking for a fresh take on a classic cocktail or are you a
+                    coffee enthusiast looking for a delicious complement to your
+                    morning brew? The blog will walk you through the nuances of
+                    flavor synergy and inspire you to let your imagination run
+                    wild when it comes to creating combinations that bring out
+                    the best in each candy's sweetness and spice. Enjoy a more
+                    sophisticated tasting experience as Susham Titaura
+                    transforms from a simple sweet to a vital component in a
+                    flavor exploration journey.
+                  </p>
+                  <p class="m-0">&nbsp;</p>
+                  <p class="m-0">
+                    As you set out on this partnering journey with Susham
+                    Titaura, think about informing other fans about your
+                    findings and preferences. The site seeks to uplift a
+                    community of taste enthusiasts that value the fascinating
+                    realm of flavor pairings. Allow Susham Titaura to lead you
+                    on an engrossing journey via spicy and sweet combinations
+                    that push the envelope of pleasure.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch box-border flex flex-col items-end justify-start pt-16 pb-[79px] pr-[19px] pl-4 max-w-full border-[1px] border-solid border-light-gray-11 mq450:pt-[27px] mq450:pb-[33px] mq450:box-border mq1050:pt-[42px] mq1050:pb-[51px] mq1050:box-border"
+          >
+            <div
+              class="w-[1202px] flex flex-col items-start justify-start max-w-full"
+            >
+              <div
+                class="relative leading-[140%] capitalize inline-block [text-shadow:1.1px_0_0_#285a43,_0_1.1px_0_#285a43,_-1.1px_0_0_#285a43,_0_-1.1px_0_#285a43] max-w-full mq450:text-3xl mq450:leading-[30px] mq1050:text-10xl mq1050:leading-[40px]"
+              >
+                Crafting Flavorful Stories: “The Artisans Behind Susham's Spicy
+                Candy”
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-end text-base text-gray1-200 font-body-medium"
+              >
+                <div
+                  class="relative leading-[150%] font-medium inline-block min-w-[124px]"
+                >
+                  January 20, 2023
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-row items-start justify-start gap-[20px] max-w-full mt-[-7px] text-lg text-gray1-200 font-body-medium lg:flex-wrap"
+            >
+              <div
+                class="flex-1 flex flex-row items-start justify-start max-w-full mq750:min-w-full"
+              >
+                <div
+                  class="flex-1 relative leading-[150%] font-medium inline-block max-w-full"
+                >
+                  <p class="m-0">
+                    Nestled in the heart of Nepal, Susham Food Products unfolds
+                    a tale of tradition, taste, and empowerment through its
+                    signature creation — titaura, the spicy candy. At the core
+                    of this culinary journey are the skilled artisans,
+                    predominantly women, who transform organic ingredients into
+                    flavorful masterpieces. The essence of Susham's artistry
+                    lies in the meticulous balance of spices and sweetness,
+                    creating a unique and culturally rich candy that transcends
+                    the ordinary.
+                  </p>
+                  <p class="m-0"></p>
+                  <p class="m-0">
+                    Behind the scenes, the artisans engage in a time-honored
+                    process that involves careful selection of local, organic
+                    ingredients. This commitment to sustainability not only
+                    contributes to the delectable taste of titaura but also
+                    underscores Susham's eco-conscious approach to candy-making.
+                    The all-female workforce, steeped in traditional techniques
+                    passed down through generations, brings these raw
+                    ingredients to life, molding and shaping titaura into a
+                    tangible expression of Nepali culture.
+                  </p>
+                  <p class="m-0"></p>
+                  <p class="m-0">
+                    Beyond being confectionery delights, Susham's titaura is a
+                    testament to the empowerment of women. The all-female
+                    workforce not only preserves Nepali traditions but also
+                    showcases the resilience and creativity of Nepali women.
+                    With each flavorful bite, consumers are invited not only to
+                    savor the unique taste but also to immerse themselves in the
+                    cultural stories woven into the very fabric of Susham's
+                    spicy candy. In the hands of these artisans, each piece
+                    becomes a celebration of tradition, sustainability, and the
+                    empowering spirit of women, adding a layer of depth to the
+                    sweet and spicy symphony of flavors.
+                  </p>
+                </div>
+                <div
+                  class="h-6 w-6 relative overflow-hidden shrink-0 hidden"
+                ></div>
+              </div>
+              <div
+                class="h-[342px] w-[502px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border min-w-[502px] max-w-full lg:flex-1 mq750:min-w-full"
+              >
+                <img
+                  class="self-stretch flex-1 relative rounded-3xs max-w-full overflow-hidden max-h-full object-cover lg:self-stretch lg:w-auto"
+                  loading="lazy"
+                  alt=""
+                  src="/public/image-71@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="w-6 h-6 relative overflow-hidden shrink-0 hidden"></div>
+      <footer
+        class="self-stretch bg-darkslategray-400 overflow-hidden flex flex-col items-center justify-end py-16 px-20 box-border max-w-full text-left text-3xs text-gainsboro-300 font-body-2-medium mq750:py-[42px] mq750:px-10 mq750:box-border"
+      >
+        <div
+          class="self-stretch flex flex-col items-start justify-start relative gap-[128px] max-w-full lg:gap-[64px_128px] mq450:gap-[16px_128px] mq750:gap-[32px_128px]"
+        >
+          <div
+            class="self-stretch flex flex-row flex-wrap items-start justify-start gap-[16px] max-w-full"
+          >
+            <div
+              class="flex-1 overflow-hidden flex flex-row items-start justify-start min-w-[411px] max-w-full mq750:min-w-full"
+            >
+              <img
+                class="h-[312px] w-[279px] relative object-cover"
+                alt=""
+                src="/public/sfp-1@2x.png"
+              />
+            </div>
+            <div
+              class="flex-1 flex flex-col items-start justify-start gap-[96px] min-w-[411px] max-w-full mq450:gap-[24px_96px] mq750:gap-[48px_96px] mq750:min-w-full"
+            >
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[16px] mq750:flex-wrap"
+              >
+                <div
+                  class="flex-1 flex flex-col items-start justify-start py-0 pr-[81px] pl-0 box-border gap-[32px] min-w-[200px] mq450:gap-[16px_32px] mq450:pr-5 mq450:box-border"
+                >
+                  <div
+                    class="flex flex-row items-center justify-start gap-[11px]"
+                  >
+                    <div
+                      class="flex flex-row items-start justify-start gap-[5px]"
+                    >
+                      <div
+                        class="h-2 w-2 relative rounded-[50%] bg-gainsboro-300"
+                      ></div>
+                      <div
+                        class="h-2 w-2 relative rounded-[50%] box-border border-[0px] border-solid border-gainsboro-300"
+                      ></div>
+                    </div>
+                    <div
+                      class="relative tracking-[0.04em] leading-[140%] uppercase font-medium inline-block min-w-[26px]"
+                    >
+                      Info
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-col items-start justify-start text-9xl font-spectral"
+                  >
+                    <div
+                      class="relative tracking-[-0.02em] leading-[34px] font-extrabold mq450:text-3xl mq450:leading-[27px]"
+                    >
+                      My Account
+                    </div>
+                    <div
+                      class="relative tracking-[-0.02em] leading-[34px] font-extrabold mq450:text-3xl mq450:leading-[27px]"
+                    >
+                      Track Your Order
+                    </div>
+                    <div
+                      class="relative tracking-[-0.02em] leading-[34px] font-extrabold inline-block min-w-[70px] mq450:text-3xl mq450:leading-[27px]"
+                    >
+                      FAQs
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex-[0.5551] flex flex-col items-start justify-start pt-[46px] pb-0 pr-[182px] pl-0 box-border min-w-[200px] text-9xl font-spectral mq450:pr-5 mq450:box-border mq450:flex-1"
+                >
+                  <div
+                    class="relative tracking-[-0.02em] leading-[34px] font-extrabold inline-block min-w-[116px] mq450:text-3xl mq450:leading-[27px]"
+                  >
+                    About us
+                  </div>
+                  <div
+                    class="relative tracking-[-0.02em] leading-[34px] font-extrabold inline-block min-w-[126px] mq450:text-3xl mq450:leading-[27px]"
+                  >
+                    View Cart
+                  </div>
+                </div>
+              </div>
+              <div
+                class="self-stretch flex flex-row items-start justify-start gap-[16px] mq750:flex-wrap"
+              >
+                <div
+                  class="flex-[0.7078] flex flex-col items-start justify-start py-0 pr-[90px] pl-0 box-border gap-[32px] min-w-[200px] mq450:gap-[16px_32px] mq450:pr-5 mq450:box-border mq450:flex-1"
+                >
+                  <div
+                    class="flex flex-row items-center justify-start gap-[11px]"
+                  >
+                    <div
+                      class="flex flex-row items-start justify-start gap-[5px]"
+                    >
+                      <div
+                        class="h-2 w-2 relative rounded-[50%] box-border border-[0px] border-solid border-gainsboro-300"
+                      ></div>
+                      <div
+                        class="h-2 w-2 relative rounded-[50%] bg-gainsboro-300"
+                      ></div>
+                    </div>
+                    <div
+                      class="relative tracking-[0.04em] leading-[140%] uppercase font-medium inline-block min-w-[70px]"
+                    >
+                      Contact us
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-col items-start justify-start gap-[12px] text-sm"
+                  >
+                    <div
+                      class="self-stretch flex flex-col items-start justify-start gap-[4px]"
+                    >
+                      <div
+                        class="relative leading-[20px] font-medium inline-block min-w-[127px] whitespace-nowrap"
+                      >
+                        +977-9843273516
+                      </div>
+                      <div
+                        class="relative leading-[20px] font-medium whitespace-nowrap"
+                      >
+                        sushamfoodproduct@gmail.com
+                      </div>
+                    </div>
+                    <div
+                      class="relative text-mini-1 leading-[20px] font-medium text-darkseagreen inline-block min-w-[63px]"
+                    >
+                      Get a call
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex-1 flex flex-col items-start justify-start pt-[46px] px-0 pb-0 box-border min-w-[200px] text-sm"
+                >
+                  <div
+                    class="flex flex-row items-start justify-start py-0 px-0 relative"
+                  >
+                    <img
+                      class="h-[168.6px] w-[254.6px] absolute !m-[0] top-[calc(50%_-_84px)] left-[calc(50%_-_127px)]"
+                      alt=""
+                      src="/public/shape-26.svg"
+                    />
+
+                    <div
+                      class="relative leading-[20px] font-semibold inline-block min-w-[106px] z-[1]"
+                    >
+                      Fill out the brief
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-row items-center justify-between gap-[20px] text-right text-gray1-300 mq450:flex-wrap"
+          >
+            <div
+              class="h-[25px] w-[81px] flex flex-row items-center justify-start gap-[32px]"
+            >
+              <img
+                class="h-6 w-6 relative"
+                loading="lazy"
+                alt=""
+                src="/public/instagram.svg"
+              />
+
+              <img
+                class="h-[25px] w-[25px] relative min-h-[25px]"
+                loading="lazy"
+                alt=""
+                src="/public/vector-1.svg"
+              />
+            </div>
+            <div
+              class="w-[100px] relative leading-[140%] font-medium inline-block min-w-[100px]"
+            >
+              © 2023 — Copyright
+            </div>
+          </div>
+          <div
+            class="w-[400px] h-[400px] absolute !m-[0] top-[calc(50%_-_259.5px)] left-[calc(50%_-_640px)] z-[1] flex items-center justify-center"
+          >
+            <img
+              class="w-full h-full z-[1] object-contain absolute left-[210px] top-[60px] [transform:scale(2.45)]"
+              loading="lazy"
+              alt=""
+              src="/public/blur.svg"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      </script>
+  </body>
+</html>
